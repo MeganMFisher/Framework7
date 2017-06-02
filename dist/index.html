@@ -13,44 +13,44 @@
     <link rel="stylesheet" href="css/my-app.css">
   </head>
   <body>
-    <!-- Status bar overlay for fullscreen mode-->
-    <div class="statusbar-overlay"></div>
+     <!--Status bar overlay for fullscreen mode
+    <div class="statusbar-overlay"></div>-->
     <!-- Panels overlay-->
-    <div class="panel-overlay"></div>
+    <!--<div class="panel-overlay"></div>-->
     <!-- Left panel with reveal effect-->
-    <div class="panel panel-left panel-reveal">
+    <!--<div class="panel panel-left panel-reveal">
       <div class="content-block">
         <p>Left panel content goes here</p>
       </div>
-    </div>
+    </div>-->
     <!-- Right panel with cover effect-->
-    <div class="panel panel-right panel-cover">
+    <!--<div class="panel panel-right panel-cover">
       <div class="content-block">
         <p>Right panel content goes here</p>
       </div>
-    </div>
+    </div>-->
     <!-- Views-->
-    <div class="views">
+    <!--<div class="views">-->
       <!-- Your main view, should have "view-main" class-->
-      <div class="view view-main">
+      <!--<div class="view view-main">-->
         <!-- Top Navbar-->
-        <div class="navbar">
-          <div class="navbar-inner">
+        <!--<div class="navbar">
+          <div class="navbar-inner">-->
             <!-- We have home navbar without left link-->
-            <div class="center sliding">Awesome App</div>
-            <div class="right">
-              <!-- Right link contains only icon - additional "icon-only" class--><a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>
+            <!--<div class="center sliding"></div>
+            <div class="right">-->
+               <!--Right link contains only icon - additional "icon-only" class<a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>
             </div>
           </div>
-        </div>
+        </div>-->
         <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
-        <div class="pages navbar-through toolbar-through">
+        <!--<div class="pages navbar-through toolbar-through">-->
           <!-- Page, data-page contains page name-->
-          <div data-page="index" class="page">
+          <!--<div data-page="index" class="page">-->
             <!-- Scrollable page content-->
-            <div class="page-content">
-              <div class="content-block-title">Welcome To My Awesome App</div>
-              <div class="content-block">
+            <!--<div class="page-content">-->
+              <!--<div class="content-block-title">Welcome</div>-->
+              <!--<div class="content-block">
                 <div class="content-block-inner">
                   <p>Couple of worlds here because my app is so awesome!</p>
                   <p>Duis sed erat ac eros ultrices pharetra id ut tellus. Praesent rhoncus enim ornare ipsum aliquet ultricies. Pellentesque sodales erat quis elementum sagittis.</p>
@@ -88,13 +88,75 @@
               </div>
             </div>
           </div>
-        </div>
+        </div>-->
         <!-- Bottom Toolbar-->
-        <div class="toolbar">
+        <!--<div class="toolbar">
           <div class="toolbar-inner"><a href="#" class="link">Link 1</a><a href="#" class="link">Link 2</a></div>
         </div>
       </div>
+    </div>-->
+    <!-- Tabs, now tabs wrapper is "views" -->
+<div class="views tabs toolbar-fixed">
+  <!-- Tab 1 - View 1, active by default -->
+  <div id="tab1" class="view tab active">
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="center">View 1</div>
+      </div>
     </div>
+    <div class="pages navbar-fixed">
+      <div data-page="home-1" class="page">
+        <div class="page-content">
+          <div class="content-block">
+            <p>This is view 1</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Tab 2 - View 2 -->
+  <div id="tab2" class="view tab">
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="center">View 2</div>
+      </div>
+    </div>
+    <div class="pages navbar-fixed">
+      <div data-page="home-2" class="page">
+        <div class="page-content">
+          <div class="content-block">
+            <p>This is view 2</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Tab 2 - View 3 -->
+  <div id="tab3" class="view tab">
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="center">View 3</div>
+      </div>
+    </div>
+    <div class="pages navbar-fixed">
+      <div data-page="home-3" class="page">
+        <div class="page-content">
+          <div class="content-block">
+            <p>This is view 3</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Tab bar with tab links -->
+  <div class="toolbar tabbar">
+    <div class="toolbar-inner">
+      <a href="#tab1" class="tab-link active">hello<i class="icon demo-icon-1"></i></a>
+      <a href="#tab2" class="tab-link"><i class="icon demo-icon-2"></i></a>
+      <a href="#tab3" class="tab-link"><i class="icon demo-icon-3"></i></a>
+    </div>
+  </div>
+</div>
     <!-- Path to Framework7 Library JS-->
     <script type="text/javascript" src="js/framework7.min.js"></script>
     <!-- Path to your app js-->
