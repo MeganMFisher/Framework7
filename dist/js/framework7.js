@@ -10,7 +10,7 @@
  * 
  * Licensed under MIT
  * 
- * Released on: May 31, 2017
+ * Released on: June 2, 2017
  */
 window.Dom7 = (function () {
 'use strict';
