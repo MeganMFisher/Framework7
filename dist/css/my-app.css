@@ -1,13 +1,27 @@
 body {
     letter-spacing: 1px;
+     background: #e5e5e5;
 }
 
 .navbar {
     background: black;
     color: #929292;
+    height: 60px;
 }
 
 
+/***************** Home *****************/
+
+
+.page1{
+    background: linear-gradient( rgb(82, 141, 164), rgba(0,0, 0, 0.2));
+}
+
+/***************** Join *****************/
+
+.page2 {
+    /*background: linear-gradient( rgb(82, 141, 164), rgba(0,0, 0, 0.2));*/
+}
 
 /***************** Shop ******************/
 
@@ -17,8 +31,8 @@ input {
     height: 30px;
 }
 
-.page3 {
-    background: #e5e5e5;
+.card {
+    box-shadow: 3px 3px 17px 2px rgba(0, 0, 0, .4);
 }
 
 .card-header {
