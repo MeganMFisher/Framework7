@@ -24,18 +24,33 @@ body {
     /*height: 100%;*/
 }
 
-.page1Content h6 {
+.rescueBox {
+    width: calc(100% + 30px);
+    margin-left: -15px;
+    height: 150px;
+    background: black;
+    opacity: .5;
+    text-align: center;
+}
+
+.page1Content h1 {
     color: white;
+
+}
+
+.page1Content h6 {
+    color: #929292;
     /*text-align: justify;*/
     letter-spacing: 4px;
-    font-size: 24px;
-    /*margin-left: */
+    font-size: 18px;
 }
 
 .page1Content p {
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     text-align: justify;
+    letter-spacing: 4px;
+    line-height: 2;
 }
 
 .page1Content img {
