@@ -14,22 +14,28 @@ body {
 
 
 .page1{
-    background: linear-gradient( rgb(82, 141, 164), rgba(0,0, 0, 0.2));
+    background: linear-gradient( rgb(82, 141, 164), rgb(0,0, 0));
 }
 
 .page1Content {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
+    /*justify-content: space-between;*/
+    /*height: 100%;*/
 }
 
-.page1Content p {
+.page1Content h6 {
     color: white;
     /*text-align: justify;*/
     letter-spacing: 4px;
     font-size: 24px;
     /*margin-left: */
+}
+
+.page1Content p {
+    color: white;
+    font-size: 16px;
+    text-align: justify;
 }
 
 .page1Content img {
