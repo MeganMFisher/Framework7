@@ -68,12 +68,28 @@ body {
 .page2 a div {
     /*background: #528da4;*/
     background: linear-gradient( rgb(82, 141, 164), rgb(0, 0, 0));
-    padding: 15px 10px;
-    box-shadow: 3px 3px 17px 2px rgba(0, 0, 0, .4); 
+    padding: 12px 10px;
+    /*box-shadow: 3px 3px 17px 2px rgba(0, 0, 0, .4); */
     margin-bottom: 30px;
     color: white;
     text-align: center;
     font-size: 18px;
+}
+
+.page2 h1 {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 28px;
+}
+
+.rescueBox2 {
+     width: calc(100% + 30px);
+    margin-left: -15px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    height: 150px;
+    background: rgba(0,0,0,.9);
+    text-align: center;
 }
 
 /***************** Shop ******************/
